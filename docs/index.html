@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color:#e3dfd6;
+        }
+        header{
+        background-color: white;
+            height: 60px;
+            position: relative;
+            bottom: 15px;
+        }
+        #some{
+       
+          display: flex;
+          list-style-type: none;
+        }
+    li{
+        flex-grow: 1;
+    }
+    li:nth-child(1){
+        flex-grow: 7;
+    }
+    li:not(:first-child){
+            text-align: center;
+            line-height: 60px;
+            /* position: relative;
+            top:10px */
+        }
+        li:not(:first-child):hover{
+            background-color:#e3dfd6;
+            height: 50px;
+            position: relative;
+            bottom: 10px;
+        }
+        #main{
+            display: flex;
+        }
+        #main>div:nth-child(1){
+            width: 50%;
+            padding-top: 8%;
+            text-align: center;
+
+
+        }
+        #main>div:nth-child(2){
+            width: 10%;
+        }
+        button{
+        display: flex;
+        justify-content: start;
+      text-align: end;
+        }
+      
+       </style>
+<header>
+    <body>
+        
+    </body>
+    <ol id="some">
+        <li>
+         <h1>COLORLIB</h1>
+            <img src="" alt="">
+        </li>
+        <li>HOME</li>
+        <li>Support</li>
+        <li>free Thems</li>
+        <li>Permium Thems</li>
+        <li>Website Thems</li>
+        <li>Blog</li>
+        <li>Account</li>
+        
+
+    </ol>
+</header>
+<section id="main">
+<div>
+    <h1>WE Care About</h1>
+    <h1>Your Hair</h1>
+    <p>
+        "Discoror you ownn style.dont try to repeat what his already be written.have the couragy,dont try to <br>repeat what his alreadyDiscoror you ownn style be written;;Discoror you ownn style.dont try to Discoror you ownn style repeat what his already be<br> written.have the couragy,dont try to"
+    </p>
+
+</div>
+<div >
+    <img src="now.PNG" alt="">
+    
+ 
+</div>
+
+</section>
+<div>
+    <button>ABOUTUS</button>
+</div>
+</body>
+</html>
